@@ -13,7 +13,19 @@ This project was tested with the following versions:
 - pickle 0.7.5
 
 ## Usage
-Type ‎`python nICA_trainning.py --data_path "with your path"` to train the NICA model with your data. Type ‎`python nICA_trainning.py -h` to learn about hyperparameters. The well-trained models are saved under ‎`results/`. Type ‎`python nICA_downstreams.py --data_path "with your path"` to perform specific downstream tasks with trained NICA models. Refer to `utils/vis.py` for visualizing the neural networks with occlusion sensitivity analysis. You can easily modify some parameters in ‎`utils/preprocessing.py` with your styles to preprocess the MEG data. ‎`utils/featsextraction.py` contains functions for feature extraction using trained models.
+Type ‎`python nICA_trainning.py --data_path "with your path"` to train the NICA model with your data.  
+e.g. trainning NICA(tcl) model with camcan
+```
+python nICA_trainning.py --data_path camcan/ -m tcl
+```
+Type ‎`python nICA_trainning.py --help` to learn about hyperparameters.
+
+The well-trained models are saved under ‎`results/`. Type ‎`python nICA_downstreams.py --data_path "with your path"` to perform specific downstream tasks with trained NICA models. 
+```
+python nICA_downstreams.py --data_path camcan/ --path results/
+```
+
+Refer to `utils/vis.py` for visualizing the neural networks with occlusion sensitivity analysis. You can easily modify some parameters in ‎`utils/preprocessing.py` with your styles to preprocess the MEG data. ‎`utils/featsextraction.py` contains functions for feature extraction using trained models.
 
 ## Reference
 
