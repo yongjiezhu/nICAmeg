@@ -22,7 +22,7 @@ If you find this code helpful/inspiring for your research, we would be grateful 
 ```bib
 @article{zhu2023unsupervised,
   title={Unsupervised representation learning of spontaneous MEG data with Nonlinear ICA},
-  author={Zhu, Yongjie and Parviainen, Tiina and Heinil{\"a}, Erkka and Parkkonen, Lauri and Hyv{\"a}rinen, Aapo},
+  author={Zhu, Yongjie and Parviainen, Tiina and Heinilä, Erkka and Parkkonen, Lauri and Hyvärinen, Aapo},
   journal={NeuroImage},
   volume = {274},
   pages={120142},
@@ -33,7 +33,7 @@ If you find this code helpful/inspiring for your research, we would be grateful 
 ```bib
 @article{hyvarinen2016unsupervised,
   title={Unsupervised feature extraction by time-contrastive learning and nonlinear ica},
-  author={Hyv{\"a}rinen, Aapo and Morioka, Hiroshi},
+  author={Hyvärinen, Aapo and Morioka, Hiroshi},
   journal={Advances in neural information processing systems},
   volume={29},
   year={2016}
@@ -42,7 +42,7 @@ If you find this code helpful/inspiring for your research, we would be grateful 
 ```bib
 @inproceedings{morioka2021independent,
   title={Independent innovation analysis for nonlinear vector autoregressive process},
-  author={Morioka, Hiroshi and H{\"a}lv{\"a}, Hermanni and Hyvarinen, Aapo},
+  author={Morioka, Hiroshi and Hälvä, Hermanni and Hyvärinen, Aapo},
   booktitle={International Conference on Artificial Intelligence and Statistics},
   pages={1549--1557},
   year={2021},
