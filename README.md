@@ -16,14 +16,14 @@ This project was tested with the following versions:
 Type ‎`python nICA_trainning.py --data_path "with your path"` to train the NICA model with your data.  
 e.g. trainning NICA(TCL) model with CamCan:
 ```
-python nICA_trainning.py --data_path camcan/ -m tcl
+python nICA_trainning.py --data_path /camcan/meg_rest -m tcl
 ```
 Type ‎`python nICA_trainning.py --help` to learn about hyperparameters.
 
 The well-trained models are saved under ‎`results/`. Type ‎`python nICA_downstreams.py --data_path "with your path"` to perform specific downstream tasks with trained NICA models. 
 e.g.:
 ```
-python nICA_downstreams.py --data_path camcan/ --path results/
+python nICA_downstreams.py --data_path /camcan/meg_passive --path results/
 ```
 
 Refer to `utils/vis.py` for visualizing the neural networks with occlusion sensitivity analysis. You can easily modify some parameters in ‎`utils/preprocessing.py` with your styles to preprocess the MEG data. ‎`utils/featsextraction.py` contains functions for feature extraction using trained models.
