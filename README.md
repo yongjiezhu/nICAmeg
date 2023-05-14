@@ -31,11 +31,12 @@ If you find this code helpful/inspiring for your research, we would be grateful 
 }
 ```
 ```bib
-@article{hyvarinen2016unsupervised,
+@inproceedings{hyvarinen2016unsupervised,
   title={Unsupervised feature extraction by time-contrastive learning and nonlinear ica},
   author={Hyvärinen, Aapo and Morioka, Hiroshi},
-  journal={Advances in neural information processing systems},
+  booktitle={Advances in Neural Information Processing Systems (NIPS2016)},
   volume={29},
+  address={Barcelona, Spain},
   year={2016}
 }
 ```
