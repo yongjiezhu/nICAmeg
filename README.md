@@ -14,7 +14,7 @@ This project was tested with the following versions:
 
 ## Usage
 Type ‎`python nICA_trainning.py --data_path "with your path"` to train the NICA model with your data.  
-e.g. trainning NICA(tcl) model with camcan
+e.g. trainning NICA(TCL) model with camcan
 ```
 python nICA_trainning.py --data_path camcan/ -m tcl
 ```
