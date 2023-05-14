@@ -1,5 +1,5 @@
 # Unsupervised representation learning of spontaneous MEG data with nonlinear ICA
-This repository contains code to show how to train nonlinear ICA with resting-state MEG and then be used to dowenstream classification tasks on smaller data sets, which is presented in [Unsupervised representation learning of spontaneous MEG data with nonlinear ICA](https://www.sciencedirect.com/science/article/pii/S1053811923002938?via%3Dihub), published at NeuroImage 2023.
+This repository contains code to show how to train nonlinear ICA with resting-state MEG and then be used to dowenstream classification tasks on label-limited data sets, which is presented in [Unsupervised representation learning of spontaneous MEG data with nonlinear ICA](https://www.sciencedirect.com/science/article/pii/S1053811923002938?via%3Dihub), published at NeuroImage 2023.
 Work done by **Yongjie Zhu** (U. of Helsinki), **Tiina Parviainen** (U. of Jyväskylä), **Erkka Heinilä** (U. of Jyväskylä), **Lauri Parkkonen** (Aalto) and **Aapo Hyvärinen** (U. of Helsinki).
 
 ## Dependencies
