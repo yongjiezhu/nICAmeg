@@ -14,13 +14,14 @@ This project was tested with the following versions:
 
 ## Usage
 Type ‎`python nICA_trainning.py --data_path "with your path"` to train the NICA model with your data.  
-e.g. trainning NICA(TCL) model with camcan
+e.g. trainning NICA(TCL) model with CamCan:
 ```
 python nICA_trainning.py --data_path camcan/ -m tcl
 ```
 Type ‎`python nICA_trainning.py --help` to learn about hyperparameters.
 
 The well-trained models are saved under ‎`results/`. Type ‎`python nICA_downstreams.py --data_path "with your path"` to perform specific downstream tasks with trained NICA models. 
+e.g.:
 ```
 python nICA_downstreams.py --data_path camcan/ --path results/
 ```
