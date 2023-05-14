@@ -44,7 +44,7 @@ If you find this code helpful/inspiring for your research, we would be grateful 
 @inproceedings{morioka2021independent,
   title={Independent innovation analysis for nonlinear vector autoregressive process},
   author={Morioka, Hiroshi and Hälvä, Hermanni and Hyvärinen, Aapo},
-  booktitle={International Conference on Artificial Intelligence and Statistics},
+  booktitle={Proc.\ Artificial Intelligence and Statistics (AISTATS2021)},
   pages={1549--1557},
   year={2021},
   organization={PMLR}
