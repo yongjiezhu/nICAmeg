@@ -10,7 +10,7 @@ This project was tested with the following versions:
 - PyTorch 1.13.1
 - mne 1.3.0
 - scikit-learn 1.2.1
-- pickle 0.7.5
+- pickle 4.0
 
 ## Usage
 Type ‎`python nICA_trainning.py --data_path "with your path"` to train the NICA model with your data.  
