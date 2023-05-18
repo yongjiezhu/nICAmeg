@@ -26,7 +26,7 @@ e.g.:
 python nICA_downstreams.py --data_path /camcan/meg_passive --path results/
 ```
 
-Refer to `utils/vis.py` for visualizing the neural networks with occlusion sensitivity analysis. You can easily modify some parameters in ‎`utils/preprocessing.py` with your styles to preprocess the MEG data. ‎`utils/featsextraction.py` contains functions for feature extraction using trained models.
+Refer to `utils/vis.py` for visualizing the neural networks with occlusion sensitivity analysis. You can easily modify some parameters in ‎`utils/preprocessing.py` with your styles to preprocess the MEG data. ‎`utils/featsextraction.py` contains functions for feature extraction using trained models. The bash job can also be used to run multiple experiments in parallel (e.g. with different random seeds) on a SLURM-equipped server.
 
 ## Reference
 
