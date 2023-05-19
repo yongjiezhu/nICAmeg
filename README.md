@@ -20,7 +20,7 @@ python nICA_trainning.py --data_path /camcan/meg_rest -m tcl
 ```
 Type ‎`python nICA_trainning.py --help` to learn about hyperparameters.
 
-The well-trained models are saved under ‎`results/`. Type ‎`python nICA_downstreams.py --data_path "with your path"` to perform specific downstream tasks with trained NICA models. 
+The well-trained models are saved under ‎`results/`. You can download it and use it to your specific data (e.g., for classification). Type ‎`python nICA_downstreams.py --data_path "with your path"` to perform specific downstream tasks with trained NICA models. 
 e.g.:
 ```
 python nICA_downstreams.py --data_path /camcan/meg_passive --path results/
