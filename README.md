@@ -13,14 +13,14 @@ This project was tested with the following versions:
 - pickle 4.0
 
 ## Usage
-Type ‎`python nICA_trainning.py --data_path "with your path"` to train the NICA model with your data.  
+The well-trained models are saved under ‎`results/`. You can download it and use it to your specific data (e.g., for classification). You can also train the model with your data by type ‎`python nICA_trainning.py --data_path "with your path"` to train the NICA model with your data.  
 e.g. trainning NICA(TCL) model with CamCan:
 ```
 python nICA_trainning.py --data_path /camcan/meg_rest -m tcl
 ```
 Type ‎`python nICA_trainning.py --help` to learn about hyperparameters.
 
-The well-trained models are saved under ‎`results/`. You can download it and use it to your specific data (e.g., for classification). Type ‎`python nICA_downstreams.py --data_path "with your path"` to perform specific downstream tasks with trained NICA models. 
+For the downstream tasks, type ‎`python nICA_downstreams.py --data_path "with your path"` to perform specific downstream tasks with trained NICA models. 
 e.g.:
 ```
 python nICA_downstreams.py --data_path /camcan/meg_passive --path results/
